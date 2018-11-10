@@ -4,11 +4,9 @@ export default function Home() {
   return (
     <main id="home">
       <h1 className="lg-heading">
-        John <span className="text-secondary">Doe</span>
+        Max <span className="text-secondary">Rediker</span>
       </h1>
-      <h2 className="sm-heading">
-        Web Developer, Programmer, Designer, & Entrepreneur
-      </h2>
+      <h2 className="sm-heading">Full Stack JavaScript Developer</h2>
       <div className="icons">
         {/* <a href="/">
           <i className="fab fa-twitter fa-2x" />
@@ -16,10 +14,10 @@ export default function Home() {
         <a href="/">
           <i className="fab fa-facebook fa-2x" />
         </a> */}
-        <a href="/">
+        <a href="https://www.linkedin.com/in/maxwellrediker/" target="_blank">
           <i className="fab fa-linkedin fa-2x" />
         </a>
-        <a href="/">
+        <a href="https://github.com/GitHubMaxwell" target="_blank">
           <i className="fab fa-github fa-2x" />
         </a>
       </div>

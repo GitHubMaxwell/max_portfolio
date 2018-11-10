@@ -24,8 +24,8 @@ export default function About() {
           </p>
         </div>
         <div className="job job-1">
-          <h3>123 Webshop</h3>
-          <h6>Full Stack Developer</h6>
+          <h3>Hack to Give Thanks</h3>
+          <h6>Software Developer</h6>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quo
             asperiores repudiandae perspiciatis eius nemo eaque sed sequi labore
@@ -33,8 +33,8 @@ export default function About() {
           </p>
         </div>
         <div className="job job-2">
-          <h3>Designers ABC</h3>
-          <h6>Frontend Developer</h6>
+          <h3>Seattle Give Camp</h3>
+          <h6>Software Developer</h6>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quo
             asperiores repudiandae perspiciatis eius nemo eaque sed sequi labore
@@ -42,8 +42,8 @@ export default function About() {
           </p>
         </div>
         <div className="job job-3">
-          <h3>Charity Workshop</h3>
-          <h6>Backend Developer</h6>
+          <h3>TenGun Design</h3>
+          <h6>Web Quality Assurance Analyst</h6>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quo
             asperiores repudiandae perspiciatis eius nemo eaque sed sequi labore

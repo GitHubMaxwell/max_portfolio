@@ -48,7 +48,7 @@
 
 // Mobile
 @include mediaSm {
-  main#home h1 {
+  .lg-heading {
     margin-top: 10vh;
   }
   .projects {

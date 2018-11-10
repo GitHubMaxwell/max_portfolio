@@ -1,13 +1,16 @@
-$primary-color: #444;
-// $primary-color: #fff;
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800");
+$primary-font: "Montserrat", sans-serif;
+$secondary-font: "Georgia, " Times New Roman ", Times, serif;";
+
+$primary-color: #fff;
+// $primary-color: #000;
 // could do light and dark mode setting per adding removing classes
-$text-color: #fff;
-$secondary-color: yellow;
+$text-color: #000;
+$secondary-color: red;
 $show-home-image: true;
 $home-image-url: url("../assets/background.jpg");
 $background-opacity: 0.9;
-$profile-picture: url("../assets/portrait.jpg");
-$profile-picture-sm: url("../assets/portrait_small.jpg");
+// $profile-picture: url("../assets/max_portrait.jpg");
 
 // Set text color dynmaically
 
@@ -28,20 +31,6 @@ $profile-picture-sm: url("../assets/portrait_small.jpg");
       background: $primary-color;
       background-attachment: fixed;
       background-size: cover;
-      // &:after {
-      //   content: "";
-      //   position: absolute;
-      //   top: 0;
-      //   right: 0;
-      //   width: 100%;
-      //   height: 100%;
-      //   // needs to be 100% of the page height not the element (100vh)
-      //   // this height is affecting the overlay
-      //   // without it it removes the pseudo element
-      //   // it seems to be a 100% of the 100vh calc-ed in the main > main.scss
-      //   z-index: -1;
-      //   background: rgba($primary-color, $background-opacity);
-      // }
     }
     &:after {
       content: "";
@@ -74,7 +63,6 @@ $profile-picture-sm: url("../assets/portrait_small.jpg");
 }
 // why do you need a range?
 // cant just do (max-width:1170px)?
-// try it out
 @mixin mediaLg {
   // @media screen and (max-width: 1170px) {
   @media screen and (min-width: 769px) and (max-width: 1170px) {
